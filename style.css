@@ -20,6 +20,9 @@ h1 {
 
 li {
     list-style: none;
+}
+
+li p {
     margin: 1rem 0;
 }
 
@@ -30,4 +33,5 @@ li {
     justify-content: center;
     font-style: italic;
     background-color: rgba(128, 128, 128, 0.384);
+    border-radius: 3px;
 }
