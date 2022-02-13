@@ -13,29 +13,61 @@
     <h1>Notas del Curso Git & Github</h1>
     <section class="comandos">
         <ul>
-            <li>
+            <li data-categoria="trabajoLocal">
                 <div class="li-content">
-                    <p>Listado de configuraciones disponibles</p>
+                    <p>Para iniciar debemos posicionarnos con la terminal en la carpeta de nuestro proyecto, una vez que estemos en la raiz del proyecto utilizamos</p>
                 </div>
                 <div class="code">
-                    <code>$ git config</code>
+                    <code>$ git init</code>
                 </div>
             </li>
 
-            <li>
+            <li data-categoria="trabajoLocal">
                 <div class="li-content">
-                    <p>Listado de configuraciones disponibles</p>
+                    <p>Ahora git ya rastrea cambios en tu proyecto, agregar un archivo a la etapa de "staging" debemos usar el siguiente comando</p>
                 </div>
                 <div class="code">
-                    <code>$ git config</code>
+                    <code>$ git add &#60;archivo(con extension)&#62;</code>
                 </div>
             </li>
-            <li>
+            <li data-categoria="trabajoLocal">
+                <div class="li-content">
+                    <p>Para agregar todos los cambios a la etapa de "staging" debemos agregar "." al final, como el siguiente comando</p>
+                </div>
+                <div class="code">
+                    <code>$ git add .</code>
+                </div>
+            </li>
+            <li data-categoria="trabajoLocal">
+                <div class="li-content">
+                    <p>Para hacer commit y guardar los cambios en el disco duro debemos utilizar el siguiente comando</p>
+                </div>
+                <div class="code">
+                    <code>$ git commit -m "aqui va un mensaje para recordar cambios"</code>
+                </div>
+            </li>
+            <li data-categoria="trabajoLocal">
+                <div class="li-content">
+                    <p>Podemos hacer commit de archivos que previamente hemos agregado con 'add' con el siguiente comando</p>
+                </div>
+                <div class="code">
+                    <code>$ git commit -am "aqui va un mensaje para recordar cambios"</code>
+                </div>
+            </li>
+            <li data-categoria="trabajoLocal">
                 <div class="li-content">
                     <p>Para ver como era el proyecto/archivo en un commit pasado podemos usar el siguiente comando</p>
                 </div>
                 <div class="code">
                     <code>$ git checkout &#60;numero de commit&#62;</code>
+                </div>
+            </li>
+            <li data-categoria="trabajoRemoto">
+                <div class="li-content">
+                    <p>Una vez que estemos listos para guardar la informacion en nuestro repositorio web, hacemos commit de los ultimos cambios y despues</p>
+                </div>
+                <div class="code">
+                    <code>$ git push origin master</code>
                 </div>
             </li>
 
