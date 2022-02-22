@@ -1,0 +1,11 @@
+{
+    "Comandos Git y Github": [{
+        "descripcion": "Te muestra el id commit y el título del commit",
+        "code": "git log --oneline",
+        "categorias": "trabajoLocal"
+    }, {
+        "descripcion": "Te muestra el id commit y el título del commit",
+        "code": "git log --oneline",
+        "categorias": "trabajoLocal"
+    }]
+}
