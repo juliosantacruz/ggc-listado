@@ -15,5 +15,7 @@ Participa compartiendo un comando de GIT o GITHUB que utilices en tu trabajo dia
 "categorias": "trabajoLocal"
 }`
 
- 3. Haz un pull request con tu comando
- 4. Comparte este proyecto 
+
+ 3. Haz un add, commit, push
+ 4. Haz un pull request con tu comando
+ 5. Comparte este proyecto 
