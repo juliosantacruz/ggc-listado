@@ -1,35 +1,33 @@
-{
-    "Comandos Git y Github": [{
-            "descripcion": "Para iniciar debemos posicionarnos con la terminal en la carpeta de nuestro proyecto, una vez que estemos en la raiz del proyecto utilizamos",
-            "code": "git init",
-            "categorias": "trabajoLocal"
-        }, {
-            "descripcion": "Ahora git ya rastrea cambios en tu proyecto, agregar un archivo a la etapa de 'staging' debemos usar el siguiente comando",
-            "code": "git add <archivo(con extension)>",
-            "categorias": "trabajoLocal"
-        }, {
-            "descripcion": "Para agregar todos los cambios a la etapa de 'staging' debemos agregar '.' al final, como el siguiente comando",
-            "code": "git add .",
-            "categorias": "trabajoLocal"
-        }, {
-            "descripcion": "Para hacer commit y guardar los cambios en el disco duro debemos utilizar el siguiente comando",
-            "code": "git commit -m 'aqui va un mensaje para recordar cambios'",
-            "categorias": "trabajoLocal"
-        }, {
-            "descripcion": "Podemos hacer commit de archivos que previamente hemos agregado con 'add' con el siguiente comando",
-            "code": "git commit -am 'aqui va un mensaje para recordar cambios'",
-            "categorias": "trabajoLocal"
-        }, {
-            "descripcion": "Para ver como era el proyecto/archivo en un commit pasado podemos usar el siguiente comando",
-            "code": "git checkout <numero de commit>",
-            "categorias": "trabajoLocal"
-        }, {
-            "descripcion": "Una vez que estemos listos para guardar la informacion en nuestro repositorio web, hacemos commit de los ultimos cambios y despues",
-            "code": "git push origin master",
-            "categorias": "trabajoRemoto"
-        }
+[{
+        "descripcion": "Para iniciar debemos posicionarnos con la terminal en la carpeta de nuestro proyecto, una vez que estemos en la raiz del proyecto utilizamos",
+        "code": "git init",
+        "categorias": "trabajoLocal"
+    }, {
+        "descripcion": "Ahora git ya rastrea cambios en tu proyecto, agregar un archivo a la etapa de 'staging' debemos usar el siguiente comando",
+        "code": "git add <archivo(con extension)>",
+        "categorias": "trabajoLocal"
+    }, {
+        "descripcion": "Para agregar todos los cambios a la etapa de 'staging' debemos agregar '.' al final, como el siguiente comando",
+        "code": "git add .",
+        "categorias": "trabajoLocal"
+    }, {
+        "descripcion": "Para hacer commit y guardar los cambios en el disco duro debemos utilizar el siguiente comando",
+        "code": "git commit -m 'aqui va un mensaje para recordar cambios'",
+        "categorias": "trabajoLocal"
+    }, {
+        "descripcion": "Podemos hacer commit de archivos que previamente hemos agregado con 'add' con el siguiente comando",
+        "code": "git commit -am 'aqui va un mensaje para recordar cambios'",
+        "categorias": "trabajoLocal"
+    }, {
+        "descripcion": "Para ver como era el proyecto/archivo en un commit pasado podemos usar el siguiente comando",
+        "code": "git checkout <numero de commit>",
+        "categorias": "trabajoLocal"
+    }, {
+        "descripcion": "Una vez que estemos listos para guardar la informacion en nuestro repositorio web, hacemos commit de los ultimos cambios y despues",
+        "code": "git push origin master",
+        "categorias": "trabajoRemoto"
+    }
 
 
 
-    ]
-}
+]
