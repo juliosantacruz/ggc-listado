@@ -26,8 +26,11 @@
         "descripcion": "Una vez que estemos listos para guardar la informacion en nuestro repositorio web, hacemos commit de los ultimos cambios y despues",
         "code": "git push origin master",
         "categorias": "trabajoRemoto"
+    },{
+        "descripcion": "Es importante cambiar el nombre del branch master a main, para que no tengamos ningun problema al trabajar con Github",
+        "code": "git branch -m old-name new-name",
+        "categorias": "trabajoRemoto"
     }
-
 
 
 ]
