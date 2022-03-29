@@ -30,7 +30,10 @@
         "descripcion": "Es importante cambiar el nombre del branch master a main, para que no tengamos ningun problema al trabajar con Github",
         "code": "git branch -m old-name new-name",
         "categorias": "trabajoRemoto"
+    }, {
+        "descripcion": " ver todas las ramas en el sistema de git local",
+        "code": "git branch",
+        "categorias": "trabajoLocal"    
     }
-
 
 ]
