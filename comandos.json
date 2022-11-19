@@ -1,39 +1,54 @@
 [{
-        "descripcion": "Para iniciar debemos posicionarnos con la terminal en la carpeta de nuestro proyecto, una vez que estemos en la raiz del proyecto utilizamos",
+        "descripcion": "Para iniciar debemos posicionarnos con la terminal en la carpeta de nuestro proyecto, una vez que estemos en la raíz del proyecto utilizamos:",
         "code": "git init",
         "categorias": "trabajoLocal"
     }, {
-        "descripcion": "Ahora git ya rastrea cambios en tu proyecto, agregar un archivo a la etapa de 'staging' debemos usar el siguiente comando",
-        "code": "git add <archivo(con extension)>",
+        "descripcion": "Ahora git ya rastrea los cambios de tu proyecto, para agregar los cambios de un archivo a la etapa de 'staging' debemos usar el siguiente comando:",
+        "code": "git add (el nombre del archivo con su extensión ej. 'header.js')",
         "categorias": "trabajoLocal"
     }, {
-        "descripcion": "Para agregar todos los cambios a la etapa de 'staging' debemos agregar '.' al final, como el siguiente comando",
+        "descripcion": "Para agregar todos los cambios realizados en uno o varios archivos a la etapa de 'staging', debemos agregar '.' al final del git add, así:",
         "code": "git add .",
         "categorias": "trabajoLocal"
     }, {
-        "descripcion": "Para hacer commit y guardar los cambios en el disco duro debemos utilizar el siguiente comando",
-        "code": "git commit -m 'aqui va un mensaje para recordar cambios'",
+        "descripcion": "Para hacer un commit y guardar los cambios en el disco duro, debemos utilizar el siguiente comando:",
+        "code": "git commit -m 'aquí va un mensaje resumiendo los cambios realizados'",
         "categorias": "trabajoLocal"
     }, {
-        "descripcion": "Podemos hacer commit de archivos que previamente hemos agregado con 'add' con el siguiente comando",
-        "code": "git commit -am 'aqui va un mensaje para recordar cambios'",
+        "descripcion": "Podemos utilizar el siguiente comando cuando queramos en un solo paso realizar un commit e incluir todos los cambios, el '-a' remplaza el comando 'git add':",
+        "code": "git commit -am 'aquí va un mensaje resumiendo los cambios realizados'",
         "categorias": "trabajoLocal"
     }, {
-        "descripcion": "Para ver como era el proyecto/archivo en un commit pasado podemos usar el siguiente comando",
-        "code": "git checkout <numero de commit>",
+        "descripcion": "Empleando el siguiente comando podemos crear una nueva rama:",
+        "code": "git branch (nombre de la nueva rama)",
+        "categorias": "trabajoLocal"    
+    }, {
+        "descripcion": "El siguiente comando lo podemos emplear para eliminar una rama a nivel local:",
+        "code": "git branch -d (nombre de la nueva rama)",
+        "categorias": "trabajoLocal"    
+    }, {
+        "descripcion": "Este comando se emplea para cambiar el nombre de una rama. Es importante emplearlo para cambiar el nombre de la rama principal por defecto 'master' a 'main', para prevenir problema al trabajar con Github:",
+        "code": "git branch -m master(old-name) main(new-name)",
         "categorias": "trabajoLocal"
     }, {
-        "descripcion": "Una vez que estemos listos para guardar la informacion en nuestro repositorio web, hacemos commit de los ultimos cambios y despues",
-        "code": "git push origin master",
-        "categorias": "trabajoRemoto"
-    },{
-        "descripcion": "Es importante cambiar el nombre del branch master a main, para que no tengamos ningun problema al trabajar con Github",
-        "code": "git branch -m old-name new-name",
-        "categorias": "trabajoRemoto"
-    }, {
-        "descripcion": " ver todas las ramas en el sistema de git local",
+        "descripcion": "Este comando sirve para ver el listado de todas las ramas que existen a nivel local:",
         "code": "git branch",
         "categorias": "trabajoLocal"    
+    }, {
+        "descripcion": "Podemos usar el siguiente comando para movernos entre las ramas existentes:",
+        "code": "git checkout (nombre de la rama en la que queremos trabajar)",
+        "categorias": "trabajoLocal"
+    }, {
+        "descripcion": "Podemos usar el siguiente comando para crear una rama 'git branch' y movernos a ella en un sólo paso:",
+        "code": "git checkout -b (nombre de la nueva rama)",
+        "categorias": "trabajoLocal"
+    }, {
+        "descripcion": "Para ver como era el proyecto/archivo en un commit pasado podemos usar el siguiente comando:",
+        "code": "git checkout (número de commit)",
+        "categorias": "trabajoLocal"
+    }, {
+        "descripcion": "Una vez que estemos listos para guardar la información en nuestro repositorio web (remoto), y ya hemos realizado los commits de los últimos cambios, podemos emplear el siguiente comando:",
+        "code": "git push origin master",
+        "categorias": "trabajoRemoto"
     }
-
 ]
